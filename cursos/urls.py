@@ -10,6 +10,10 @@ from .views import (
     CursoViewSet,
     AvaliacaoViewSet)
 
+
+'''
+ROUTERS:
+'''
 router = SimpleRouter()
 router.register('cursos', CursoViewSet)
 router.register('avaliacoes', AvaliacaoViewSet)
